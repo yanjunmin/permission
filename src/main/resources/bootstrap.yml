@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: permission-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.100.165.251:8848
+      config:
+        server-addr: 47.100.165.251:8848
+        file-extension: yaml
+        namespace: 65ad79a4-3689-4ef4-b5d1-3da18b9cd1c3
+        #group: DEV_GROUP
+        group: TEST_GROUP
